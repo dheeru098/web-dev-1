@@ -1,38 +1,38 @@
-# My Portfolio Website
-
-This is my **Web Development Lab Assignment 1**, where I created a simple one-page personal portfolio website using only **HTML**.
-
-The website includes the following sections:
-
-- **About:** My introduction and profile picture.
-- **Projects:** A short list of sample web projects I’ve made.
-- **Skills:** A table showing my technical skill levels.
-- **Contact:** A simple form with fields for name, email, and message.
+# Lab 2 – Personal Portfolio Webpage  
+### Web Development – I  
+**Student Name:** Dheeraj Kumar Yadav  
+**Course:** B.Tech CSE (AI & ML)  
+**Faculty:** Shadab Sir  
+**University:** K.R. Mangalam University  
 
 ---
 
-### 📘 Objective
-To learn how to use **semantic HTML tags** such as `<header>`, `<nav>`, `<section>`, and `<footer>` to create a structured and accessible webpage.
+## 📘 Objective
+The aim of this lab is to create a simple personal portfolio webpage using HTML and external CSS.  
+This helped me to understand how to link CSS and how styling changes the full look of a webpage.
 
 ---
 
-### 🧠 What I Learned
-- How to structure a webpage using semantic tags.
-- How to add navigation links that scroll smoothly between sections.
-- How to insert an image with proper alt text for accessibility.
-- How to create a table and a form with labels, placeholders, and required fields.
-- How to write clean, readable, and well-indented HTML.
+## 🧩 Project Description
+In this project I made a portfolio website which include few main sections – About Me, Projects, Skills and Contact form.  
+The design is kept simple, neat and readable. All styling is written in **style.css** file.  
+The page has navigation links, a small image, tables and form that show how CSS can style different html tags.
 
 ---
 
-### 🛠️ Technologies Used
-- HTML5
-- Semantic Elements
-- Accessibility Attributes
+## 🎨 Features Added
+- External CSS linked through `<link rel="stylesheet" href="style.css">`  
+- Navigation bar with hover links  
+- Profile image in about section  
+- Table for projects and skills  
+- Contact form with basic input field  
+- Basic spacing, font style and round image using CSS  
 
 ---
 
-### 👤 Author
-**Dheeraj Kumar**  
-B.Tech CSE (AI & ML)  
-Web Development Lab – Assignment 1
+## 🧠 What I Learnt
+- How to connect HTML and CSS properly  
+- Use of element, class and id selectors  
+- Using margin, padding and border for layout  
+- Keeping a consistent theme and simple color combination  
+- Creating and organizing project files clearly  
