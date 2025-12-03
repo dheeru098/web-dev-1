@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YumExpress – Fresh Meals Delivered</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <nav class="navbar">
+        <h1 class="brand">YumExpress</h1>
+        <ul class="nav-links">
+            <li><a href="#food-categories">Categories</a></li>
+            <li><a href="#top-restaurants">Restaurants</a></li>
+            <li><a href="#special-deals">Deals</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button class="btn-light">Login</button>
+            <button class="btn-primary">Sign Up</button>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2>Fresh Meals Delivered Right to Your Doorstep</h2>
+        <p>Discover top-rated kitchens, trending dishes, and exclusive combos crafted just for your cravings. Fast delivery, hot meals, and amazing flavors — all in one place.</p>
+        <button class="btn-primary hero-btn">Start Ordering</button>
+    </div>
+    <div class="hero-img">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Fresh food served on table">
+    </div>
+</section>
+
+<section class="search-box">
+    <form>
+        <div class="form-group">
+            <label for="user-location">Enter Delivery Address</label>
+            <input type="text" id="user-location" placeholder="e.g., Sector 45, Gurgaon">
+        </div>
+        <div class="form-group">
+            <label for="food-type">Choose Category</label>
+            <select id="food-type">
+                <option>All Dishes</option>
+                <option>Budget Meals</option>
+                <option>Healthy Choices</option>
+                <option>Trending Now</option>
+                <option>Chef Specials</option>
+            </select>
+        </div>
+        <button type="button" class="btn-primary">Search</button>
+    </form>
+</section>
+
+<section id="food-categories" class="section-padding">
+    <h2 class="section-title">Popular Categories</h2>
+    <div class="category-grid">
+        <article class="category-card">🍱 Bento Meals</article>
+        <article class="category-card">🥘 North Indian</article>
+        <article class="category-card">🍛 Biryani Specials</article>
+        <article class="category-card">🍟 Street Snacks</article>
+        <article class="category-card">🧋 Beverages</article>
+        <article class="category-card">🍝 Pasta</article>
+        <article class="category-card">🥪 Sandwiches</article>
+        <article class="category-card">🍩 Donuts</article>
+        <article class="category-card">🥙 Shawarma</article>
+    </div>
+</section>
+
+<section id="top-restaurants" class="section-padding">
+    <h2 class="section-title">Featured Restaurants</h2>
+
+    <div class="restaurant-grid">
+        <article class="restaurant-card">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&q=60" alt="Spice Route Kitchen">
+            <div>
+                <h3>Spice Route Kitchen</h3>
+                <p>⭐ 4.9 • North Indian, Punjabi</p>
+                <small>Delivery: 18–28 min</small>
+            </div>
+        </article>
+
+        <article class="restaurant-card">
+            <img src="https://images.unsplash.com/photo-1604908554169-588d067ff9c1?auto=format&fit=crop&w=500&q=60" alt="Noodle Box Express">
+            <div>
+                <h3>Noodle Box Express</h3>
+                <p>⭐ 4.7 • Chinese, Thai</p>
+                <small>Delivery: 22–35 min</small>
+            </div>
+        </article>
+
+        <article class="restaurant-card">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=60" alt="Urban Slice Pizzeria">
+            <div>
+                <h3>Urban Slice Pizzeria</h3>
+                <p>⭐ 4.8 • Italian, Pizza</p>
+                <small>Delivery: 15–25 min</small>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section id="special-deals" class="section-padding">
+    <h2 class="section-title">Today’s Hot Deals</h2>
+    <div class="deal-grid">
+        <div class="deal-card">
+            <h3>🥳 25% OFF</h3>
+            <p>Flat discount on festive combo meals.</p>
+            <button class="btn-light">Grab Deal</button>
+        </div>
+        <div class="deal-card">
+            <h3>🧃 Free Drink</h3>
+            <p>Available on orders above ₹249.</p>
+            <button class="btn-light">Redeem</button>
+        </div>
+        <div class="deal-card">
+            <h3>🍕 Mega Pizza Sale</h3>
+            <p>Buy 2 and get 50% OFF on 3rd.</p>
+            <button class="btn-light">Order Combo</button>
+        </div>
+    </div>
+</section>
+
+<section id="reviews" class="section-padding">
+    <h2 class="section-title">Customer Reviews</h2>
+
+    <div class="review-grid">
+        <article class="review-card">
+            <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Aarav review">
+            <p>★★★★★</p>
+            <p>“Superb service! Food was hot, tasty, and delivered on time.”</p>
+            <strong>- Aarav M.</strong>
+        </article>
+
+        <article class="review-card">
+            <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Sneha review">
+            <p>★★★★★</p>
+            <p>“Amazing variety. I love trying a new dish every day!”</p>
+            <strong>- Sneha P.</strong>
+        </article>
+
+        <article class="review-card">
+            <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="Karthik review">
+            <p>★★★★★</p>
+            <p>“Fast delivery even during rush hours. Highly recommended.”</p>
+            <strong>- Karthik R.</strong>
+        </article>
+    </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <h3>YumExpress</h3>
+    <p><a href="#">About</a> • <a href="#">Careers</a> • <a href="#">Help Center</a> • <a href="#">Refund Policy</a></p>
+    <small>© 2025 YumExpress. All Rights Reserved.</small>
+</footer>
+
+</body>
+</html>
